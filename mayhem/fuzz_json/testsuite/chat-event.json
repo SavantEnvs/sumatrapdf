@@ -1,0 +1,1 @@
+{"id":"c1","object":"chat.completion.chunk","choices":[{"index":0,"delta":{"role":"assistant","content":"Hello \u00e9 \ud83d\ude00 world\n"},"finish_reason":null}]}
