@@ -1,0 +1,9 @@
+project: savantenvs/sumatrapdf
+target: fuzz_chm
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_chm/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_chm
+    libfuzzer: true
+    timeout: 5
